@@ -41,8 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/amigo888888/myxsm:latest                              labels: |            org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.description=http server
+            ghcr.io/amigo888888/myxsm:latest            org.opencontainers.image.description=http server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
           cache-to: type=gha,mode=max
